@@ -20,7 +20,7 @@ import productContentRouter from "./routes/productcontentRoutes.js";
 import contactRouter from "./routes/contactRoutes.js";
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 connectDB();
 connectCloudinary();
 
